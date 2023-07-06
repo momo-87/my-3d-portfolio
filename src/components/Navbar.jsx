@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[14px] font-bold cursor-pointer flex">Christiam Momo &nbsp;
+          <p className="text-white text-[16px] font-bold cursor-pointer flex">Christiam Momo &nbsp;
             <span className="sm:block hidden">| Full Stack Developer</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -65,7 +65,6 @@ const Navbar = () => {
               </li>
           ))}
         </ul>
-
           </div>
         </div>
       </div> 
