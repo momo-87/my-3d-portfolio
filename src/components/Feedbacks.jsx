@@ -14,7 +14,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
   >
     <p className="text-white font-black text-[48px]">&quot;</p>
 
-    <di className="mt-1">
+    <div className="mt-1">
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
       <div className="mt-7 flex justify-between items-center  gap-1">
         <div className="flex-1 flex flex-col">
@@ -32,7 +32,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
           className="w-10 h-10 rounded-full object-cover"
         />
       </div>
-    </di>
+    </div>
     
   </motion.div>
 );
